@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [10,20,30,40,50]
+
+        //annonimous function used
+        var res = arr.filter(function(i){
+            return i > 15
+        })
+        document.write("After filtering : <br>")
+        document.write(res)
+
+        var result = arr.find(function(i){
+            return i >25
+        })
+        document.write("<br>After finding : <br>")
+        document.write(result)
+    </script>
+</body>
+</html>

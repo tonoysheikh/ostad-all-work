@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array initial value access
+        var a = ["dhaka", "kishoreganj", "feni" , "gajipur"]
+        document.write("1st array : <br>")
+        for(var i = 0; i < a.length; i++) {
+            document.write(a[i]+"<br>")
+        }
+
+        //multiple array concatinate
+
+        var b = ["d", "f", "g"]
+        document.write("2nd array : <br>")
+
+        for(var i = 0; i < b.length; i++) {
+            document.write(b[i]+"<br>")
+        }
+
+        
+        var c = a.concat(b)
+
+        document.write("After concat 3rd array : <br>")
+        for(var i = 0; i < c.length; i++)
+        {
+            document.write(c[i]+"<br>")
+        }
+
+        //string to array
+
+        var s = "Salman"
+        arr = Array.from(s)
+        
+        document.write("My string - "+s)
+        document.write("<br>String to array convertion : <br>")
+        for(var i in arr)
+        {
+            document.write(arr[i]+"<br>")
+        }
+    </script>
+</body>
+</html>
