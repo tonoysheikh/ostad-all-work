@@ -1,0 +1,11 @@
+  food list get api
+  const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${foodName}`;
+  
+  food details api
+  const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`;
+  
+  
+  youtube video link
+  
+  https://youtu.be/Fu79GFKOO7o?si=EGr_M7CgJg_pX-_Q
+  https://youtu.be/Dhyvn6vcgWQ?si=kcWhIRbYBYVe_qY0
