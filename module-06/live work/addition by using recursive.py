@@ -3,6 +3,7 @@ def add(num):
         return num + add(num-1)
     else:
         return 0
-        
-res = add(100)
-print(res)
+
+n = int(input("Enter the value of n : "))     
+res = add(n)
+print("Your result is" , res)
