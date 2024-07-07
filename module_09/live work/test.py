@@ -4,3 +4,4 @@ ls.insert(2,7)
 print(ls)
 
 print(max(ls))
+print(dir(ls))
