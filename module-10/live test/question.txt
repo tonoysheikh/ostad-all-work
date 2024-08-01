@@ -1,0 +1,15 @@
+Create a program that checks if a given string is a palindrome. Also, print all the palindrome substrings of that string. 
+
+A palindrome string is a string that is the same in forward or backward. Example: "madam". 
+A substring is a part of a string. Example: for a string "abc", substrings are: "a", "ab", "bc".
+
+
+Input String: 
+Take a string as input.
+
+
+Check for Palindrome: 
+Write a function is_palindrome(s) that checks if a given string s is a palindrome.
+
+Find All Palindromic Substrings: 
+Write a function show_palindromic_substrings(s) that prints all substrings that are palindrome in the given string.
